@@ -1,6 +1,6 @@
 package org.example
 
 object Constants {
-    const val GOOGLE_API_KEY = "<YOUR_GOOGLE_API_KEY"
-    const val TAVILY_API_KEY = "<YOUR_TAVILY_API_KEY"
+    const val GOOGLE_API_KEY = "<YOUR_GOOGLE"_API_KEY_HERE>"
+    const val TAVILY_API_KEY = "<YOUR_TAVILY"_API_KEY_HERE>"
 }

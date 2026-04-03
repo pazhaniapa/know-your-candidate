@@ -6,7 +6,12 @@ import ai.koog.agents.core.tools.reflect.asTools
 import ai.koog.agents.mcp.McpToolRegistryProvider
 import ai.koog.agents.mcp.defaultStdioTransport
 import ai.koog.prompt.executor.clients.google.GoogleModels
+import ai.koog.prompt.executor.llms.SingleLLMPromptExecutor
 import ai.koog.prompt.executor.llms.all.simpleGoogleAIExecutor
+import ai.koog.prompt.executor.ollama.client.OllamaClient
+import ai.koog.prompt.llm.LLMCapability
+import ai.koog.prompt.llm.LLMProvider
+import ai.koog.prompt.llm.LLModel
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.json.*
 
@@ -62,7 +67,8 @@ suspend fun fetchCandidates(constituencyName: String, candidateInfoAgent: AIAgen
         formattedResponse = response.replace("```json", "").replace("```", "").trim()
         //println("Cleaned Response: $formattedResponse")
     } else {
-        println("Response does not contain code block markers, using as is.")
+        //Response does not contain code block markers, using as is.
+        formattedResponse = response
     }
 
     val candidatesJsonArray = Json.parseToJsonElement(formattedResponse)
@@ -108,10 +114,26 @@ private suspend fun getWebSearchAgent(): AIAgent<String, String> {
         name = "tavily-search-server", version = "1.0.0"
     )
 
+    //val executor = simpleGoogleAIExecutor(Constants.GOOGLE_API_KEY)
+
+    val executor = SingleLLMPromptExecutor(OllamaClient(baseUrl = "http://localhost:11434"))
+
+    val gemma4Model = LLModel(
+        provider = LLMProvider.Ollama,
+        id = "gemma4:26b",
+        capabilities = listOf(
+            LLMCapability.Temperature,
+            LLMCapability.Schema.JSON.Basic,
+            LLMCapability.Tools
+        ),
+        contextLength = 200000
+    )
+
     val aiAgent = AIAgent(
-        promptExecutor = simpleGoogleAIExecutor(Constants.GOOGLE_API_KEY),
+        promptExecutor = executor,
         systemPrompt = "You are information summarization assistant. Use the provided MCP search tools to search the web for information and answer the question based on that.",
-        llmModel = GoogleModels.Gemini2_5Flash,
+        //llmModel = GoogleModels.Gemini2_5Flash,
+        llmModel = gemma4Model,
         toolRegistry = mcpToolRegistry
     )
 
@@ -119,7 +141,22 @@ private suspend fun getWebSearchAgent(): AIAgent<String, String> {
 }
 
 private fun getCandidateInfoAgent(): AIAgent<String, String> {
-    val executor = simpleGoogleAIExecutor(Constants.GOOGLE_API_KEY)
+    //Use this if you want to use Google Gemini models.
+    //val executor = simpleGoogleAIExecutor(Constants.GOOGLE_API_KEY)
+
+    //use this if you want to use local LLM in Ollama. Make sure to have Ollama installed and running with the appropriate model pulled.
+    val executor = SingleLLMPromptExecutor(OllamaClient(baseUrl = "http://localhost:11434"))
+
+    val gemma4Model = LLModel(
+        provider = LLMProvider.Ollama,
+        id = "gemma4:26b",
+        capabilities = listOf(
+            LLMCapability.Temperature,
+            LLMCapability.Schema.JSON.Basic,
+            LLMCapability.Tools
+        ),
+        contextLength = 200000
+    )
 
     //Candidates information has been exposed as Tools in Tools.kt file.
     val registry = ToolRegistry {
@@ -130,7 +167,8 @@ private fun getCandidateInfoAgent(): AIAgent<String, String> {
         promptExecutor = executor,
         systemPrompt = "You are a helpful Know Your Candidate assistant for Tamil Nadu, India state election 2026. You have the candidates information from various parties as json from the provided tools.",
         toolRegistry = registry,
-        llmModel = GoogleModels.Gemini2_5Flash // Or Gemini2_0Pro for larger docs
+        //llmModel = GoogleModels.Gemini2_5Flash // Or Gemini2_0Pro for larger docs
+        llmModel = gemma4Model
     )
 
     return agent

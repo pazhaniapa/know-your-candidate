@@ -54,12 +54,6 @@ Party JSON files are bundled as classpath resources under `src/main/resources/`.
 { "candidate_name": "...", "constituency": "...", "party_name": "..." }
 ```
 
-| Party  | File                              | Approx. candidates |
-|--------|-----------------------------------|--------------------|
-| DMK    | `DMK-candidates-list-2026.json`   | 245                |
-| TVK    | `tvk-candidates-list-2026.json`   | 293                |
-| AIADMK | `AIADMK-candidates-list-2026.json`| 209                |
-| NTK    | `NTK-candidates-list-2026-.json`  | 59                 |
 
 ---
 

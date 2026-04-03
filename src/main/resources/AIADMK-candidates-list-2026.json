@@ -1,0 +1,837 @@
+[
+  {
+    "candidate_name": "K. Palaniswami",
+    "constituency": "Edappadi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.P. Munusamy",
+    "constituency": "Veppanahalli",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "C. Srinivasan",
+    "constituency": "Thindukkal",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Natham R. Viswanathan",
+    "constituency": "Natham",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S.P. Velumani",
+    "constituency": "Thondamuthur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Thangamani",
+    "constituency": "Kumarapalayam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "D. Jayakumar",
+    "constituency": "Rayapuram",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "C.Ve. Shanmugam",
+    "constituency": "Mailam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Sellur K. Raju",
+    "constituency": "Madurai West",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.P. Anbazhagan",
+    "constituency": "Palacode",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Kamaraj",
+    "constituency": "Nannilam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "O.S. Manian",
+    "constituency": "Vedaranyam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Dr. C. Vijayabaskar",
+    "constituency": "Viralimali",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.P. Rajan",
+    "constituency": "Kolathur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R.B. Udhayakumar",
+    "constituency": "Tirumangalam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.T. Rajenthra Bhalaji",
+    "constituency": "Sivakasi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Benjamin",
+    "constituency": "Madhavaram",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V. Karunanithi",
+    "constituency": "Kalasapakkam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V.V. Rajan Chellappa",
+    "constituency": "Thiruparankundram",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.C. Karuppannan",
+    "constituency": "Bhavani",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.C. Veeramani",
+    "constituency": "Jolarpet",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "M.R. Vijayabhaskar",
+    "constituency": "Karur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Rajendran",
+    "constituency": "Ariyalur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V. Sathan",
+    "constituency": "Kumbidipundi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "I. Saroja",
+    "constituency": "Thuraiyur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Tamilselvan",
+    "constituency": "Perambalur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Sorathur R. Rajendran",
+    "constituency": "Neyveli",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Mohan",
+    "constituency": "Panruti",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "M.C. Sampath",
+    "constituency": "Cuddalore",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "A. Bhuvanendran",
+    "constituency": "Kurinjipadi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "A. Arunmozhithevan",
+    "constituency": "Bhuvanagiri",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.A. Pandiyan",
+    "constituency": "Chidambaram",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "M. Sakthi",
+    "constituency": "Sirkazhi (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Pavunraj",
+    "constituency": "Poompuhar",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Thanga. Kathiravan",
+    "constituency": "Nagapattinam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "U. Baladandayutham",
+    "constituency": "Thiruthuraipoondi (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Ilamathi Subramanian",
+    "constituency": "Thiruvidaimarudur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "D. Shanmugaprabu",
+    "constituency": "Papanasam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "M. Sekar",
+    "constituency": "Orathanadu",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "C.V. Sekar",
+    "constituency": "Pattukkottai",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Kovi. Ilango",
+    "constituency": "Peravurani",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P.K. Vairamuthu",
+    "constituency": "Thirumayam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "PR. Senthilnathan",
+    "constituency": "Sivaganga",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Periyapullan (alias) Selvam",
+    "constituency": "Melur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mangalam K. Mahendran",
+    "constituency": "Madurai East",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Manikkam",
+    "constituency": "Sholavandan (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Saravanan",
+    "constituency": "Madurai North",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "I. Mahendran",
+    "constituency": "Usilampatti",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "A. Logirajan",
+    "constituency": "Andipatti",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V.T. Narayanasamy",
+    "constituency": "Bodinayakanur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S.T.K. Jakkaiyan",
+    "constituency": "Cumbum",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "M. Chandhrapraba",
+    "constituency": "Srivilliputhur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V.G. Ganesan",
+    "constituency": "Virudhunagar",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Sethupathi",
+    "constituency": "Aruppukkottai",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Muthaiah",
+    "constituency": "Paramakudi (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Keerthika Muniyasamy",
+    "constituency": "Tiruvadanai",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Malaysia S. Pandi",
+    "constituency": "Mudukulathur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Sathya",
+    "constituency": "Vilathikulam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Ci.Dha. Sellappandiyan",
+    "constituency": "Thoothukudi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S.P. Shanmuganathan",
+    "constituency": "Srivaikuntam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Thilipan Jaisankar",
+    "constituency": "Sankarankovil (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "C. Krishnamurali",
+    "constituency": "Kadayanallur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Selvamogandhas-Pandiyan",
+    "constituency": "Tenkasi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.R.P. Prabakaran",
+    "constituency": "Alangulam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Thatchai N. Ganesharaja",
+    "constituency": "Tirunelveli",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Esakki Subbaiah (alias) I. Subbaiah",
+    "constituency": "Ambasamudram",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Syed Sulthan Samsudeen",
+    "constituency": "Palayamkottai",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "N. Thalavaisundaram",
+    "constituency": "Kanniyakumari",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Balaraman",
+    "constituency": "Ponneri (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Thiruthani",
+    "constituency": "Tiruttani",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "B.V. Ramana",
+    "constituency": "Tiruvallur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V. Moorthy",
+    "constituency": "Madhavaram",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Kuppan",
+    "constituency": "Tiruvottiyur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Pazhani",
+    "constituency": "Srirampur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Ramachandran",
+    "constituency": "Dharmapuri",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "M. Raja (alias) K. Rajendran",
+    "constituency": "Chengalpattu",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "E. Rajasekar",
+    "constituency": "Cheyyur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Maragatham Kumaravel",
+    "constituency": "Maduranthakam (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V. Somnath",
+    "constituency": "Kancheepuram",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Ravi",
+    "constituency": "Arakkonam (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V. Ramu",
+    "constituency": "Katpadi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S.M. Sugumar",
+    "constituency": "Arcot",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Maragatham Vetrivel",
+    "constituency": "Pappireddippatti",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V. Sampathkumar",
+    "constituency": "Harur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "T.S. Velu",
+    "constituency": "Chengam (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Ramachandran",
+    "constituency": "Kilpennathur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "L. Jayasudha",
+    "constituency": "Arani",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mukkur N. Subramanian",
+    "constituency": "Cheyyar",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Rani",
+    "constituency": "Vandavasi (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Arjunan",
+    "constituency": "Tindivanam (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Murugan",
+    "constituency": "Vanur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S.R.K. Appu",
+    "constituency": "Vellore",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "D. Velazhagan",
+    "constituency": "Anaicut",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "G. Parisa Purushothaman",
+    "constituency": "Gudiyattam (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "G. Sendhil Kumar",
+    "constituency": "Vaniyambadi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Venkatesan",
+    "constituency": "Ambur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "T.M. Tamilselvam",
+    "constituency": "Uthangarai (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "E.C. Govindarasu",
+    "constituency": "Bargur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Ashok Kumar",
+    "constituency": "Krishnagiri",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Balakrishna Reddy",
+    "constituency": "Hosur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Amman K. Arjunan",
+    "constituency": "Coimbatore South",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.R. Jayaram",
+    "constituency": "Singanallur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Se. Damodaran",
+    "constituency": "Kinathukadavu",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Pollachi V. Jayaraman",
+    "constituency": "Pollachi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "D. Lakshmanan",
+    "constituency": "Valparai (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Udumalai K. Radhakrishnan",
+    "constituency": "Udumalaipettai",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Ravi Manoharan",
+    "constituency": "Palani",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "A. Viswanathan",
+    "constituency": "Oddanchatram",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Thenmozhi",
+    "constituency": "Nilakottai (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V.P.B. Paramasivam",
+    "constituency": "Vedasandur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Selvakumar",
+    "constituency": "Aravakurichi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Divya",
+    "constituency": "Krishnarayapuram (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Kandhasamy",
+    "constituency": "Kulithalai",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P.L. Vijayakumar",
+    "constituency": "Manapparai",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Manoharan",
+    "constituency": "Srirangam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Rajasekaran",
+    "constituency": "Tiruchirappalli (East)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Kumar",
+    "constituency": "Tiruchirappalli (West)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "M. Leela Rajesh",
+    "constituency": "Thiruverumbur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "N. Yogalingam",
+    "constituency": "Musiri",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K. Vijaya",
+    "constituency": "Vikravandi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Pazhanisamy",
+    "constituency": "Tirukkoyilur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Kumaraguru",
+    "constituency": "Ulundurpettai",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Madhavan",
+    "constituency": "Sankarapuram",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Rajendran",
+    "constituency": "Kallakurichi (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "A. Nallathambi",
+    "constituency": "Gangavalli (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "A.P. Jayasankaran",
+    "constituency": "Attur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Usha Rani",
+    "constituency": "Yercaud (ST)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Mani",
+    "constituency": "Omalur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "G. Venkatachalam",
+    "constituency": "Mettur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Vetrivel",
+    "constituency": "Sankari",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "J. Robert",
+    "constituency": "Salem (South)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Senthil Kumar",
+    "constituency": "Veerapandi",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "C. Chandrasekaran",
+    "constituency": "Sendamangalam (ST)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P.S. Madhavi",
+    "constituency": "Namakkal",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Sekar",
+    "constituency": "Paramathi Velur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Chandrasekar",
+    "constituency": "Tiruchengodu",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "R. Manoharan",
+    "constituency": "Erode (East)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Sathiyabama",
+    "constituency": "Dharapuram (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "N.S.N. Nataraj",
+    "constituency": "Kangayam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "S. Jayakumar",
+    "constituency": "Perundurai",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P. Haribhaskar",
+    "constituency": "Anthiyur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V.B. Babu",
+    "constituency": "Gobichettipalayam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "A. Bannari",
+    "constituency": "Bhavanisagar (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Pon. Jayaseelan",
+    "constituency": "Gudalur (SC)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "A. Ramu",
+    "constituency": "Coonoor",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "O.K. Chinnaraj",
+    "constituency": "Mettupalayam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "M.S.M. Anandan",
+    "constituency": "Tiruppur (North)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "K.P. Paramasivam",
+    "constituency": "Palladam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "V.P. Kandhasamy",
+    "constituency": "Sulur",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "P.R.G. Arunkumar",
+    "constituency": "Kavundampalayam",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mrs. B. Valarmathi",
+    "constituency": "Thousand Lights (20)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mrs. S. Gokula Indira",
+    "constituency": "Anna Nagar (21)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. Adhirajaram",
+    "constituency": "Chepauk-Thiruvallikeni (19)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. N. Murugumaran",
+    "constituency": "Tittakudi (SC) (151)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. Royapuram R. Mano",
+    "constituency": "Harbour (18)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. Virugai V.N. Ravi",
+    "constituency": "Virugambakkam (22)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. B. Sathyanarayanan",
+    "constituency": "Thyagarayanagar (24)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. M.K. Ashok",
+    "constituency": "Velachery (26)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. K.P. Kandan",
+    "constituency": "Sholinganallur (27)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. R.S. Rajesh",
+    "constituency": "Dr. Radhakrishnan Nagar (11)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. S.R. Vijayakumar",
+    "constituency": "Villivakkam (14)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. M.S.R. Rajavarman",
+    "constituency": "Thiruchuli (208)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. S. Saravanan",
+    "constituency": "Alandur (28)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. P. Santhanakrishnan",
+    "constituency": "Kolathur (13)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mrs. A. Porkodi",
+    "constituency": "Thiru.Vi.Ka. Nagar (SC) (15)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. Abhishek Rangasamy",
+    "constituency": "Egmore (SC) (16)",
+    "party_name": "AIADMK"
+  },
+  {
+    "candidate_name": "Mr. Dhan. Vimal",
+    "constituency": "Alangudi (182)",
+    "party_name": "AIADMK"
+  }
+]

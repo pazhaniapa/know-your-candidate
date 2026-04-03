@@ -1,0 +1,986 @@
+[
+  {
+    "s_no": 1,
+    "constituency": "Kanyakumari",
+    "candidate_name": "Re. Mahesh B.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 2,
+    "constituency": "Nagercoil",
+    "candidate_name": "S. Austin M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 3,
+    "constituency": "Radhapuram",
+    "candidate_name": "M. Appavu",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 4,
+    "constituency": "Palayamkottai",
+    "candidate_name": "M. Abdul Wahab B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 5,
+    "constituency": "Tirunelveli",
+    "candidate_name": "Su. Subramanian B.E., M.B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 6,
+    "constituency": "Alangulam",
+    "candidate_name": "Dr. Paul Manoj Pandian M.A., M.L., Ph.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 7,
+    "constituency": "Tenkasi",
+    "candidate_name": "Dr. Kalai Kathiravan M.B.B.S.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 8,
+    "constituency": "Vasudevanallur",
+    "candidate_name": "E. Raja B.Com., M.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 9,
+    "constituency": "Kovilpatti",
+    "candidate_name": "Ka. Karunanithi",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 10,
+    "constituency": "Ottapidaram (SC)",
+    "candidate_name": "M.C. Shanmugiah B.Sc.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 11,
+    "constituency": "Tiruchendur",
+    "candidate_name": "Anitha Radhakrishnan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 12,
+    "constituency": "Thoothukudi",
+    "candidate_name": "Geetha Jeevan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 13,
+    "constituency": "Vilathikulam",
+    "candidate_name": "G.V. Markanaayan B.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 14,
+    "constituency": "Mudukulathur",
+    "candidate_name": "R.S. Rajakannappan B.Sc., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 15,
+    "constituency": "Ramanathapuram",
+    "candidate_name": "Kaderbatcha (a) Muthuramalingam B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 16,
+    "constituency": "Paramakudi (SC)",
+    "candidate_name": "K.K. Kathiravan B.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 17,
+    "constituency": "Tiruchuli",
+    "candidate_name": "Thangam Thennarasu B.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 18,
+    "constituency": "Aruppukkottai",
+    "candidate_name": "K.K.S.S.R. Ramachandran",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 19,
+    "constituency": "Sattur",
+    "candidate_name": "A.R.R. Raghuraman",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 20,
+    "constituency": "Rajapalayam",
+    "candidate_name": "S. Thangapandian",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 21,
+    "constituency": "Cumbum",
+    "candidate_name": "N. Ramakrishnan M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 22,
+    "constituency": "Bodinayakkanur",
+    "candidate_name": "O. Panneerselvam B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 23,
+    "constituency": "Andipatti",
+    "candidate_name": "A. Maharajan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 24,
+    "constituency": "Tirumangalam",
+    "candidate_name": "Sedapatti M. Manimaran",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 25,
+    "constituency": "Thiruparankundram",
+    "candidate_name": "Krithika Thangapandian B.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 26,
+    "constituency": "Madurai West",
+    "candidate_name": "Raghu Balaji B.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 27,
+    "constituency": "Madurai Central",
+    "candidate_name": "Dr. P.T.R. Palanivel Thiagarajan B.Tech., M.S., Ph.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 28,
+    "constituency": "Madurai North",
+    "candidate_name": "Go. Thalapathi",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 29,
+    "constituency": "Sholavandan (SC)",
+    "candidate_name": "A. Venkatesan B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 30,
+    "constituency": "Madurai East",
+    "candidate_name": "P. Moorthy B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 31,
+    "constituency": "Manamadurai (SC)",
+    "candidate_name": "A. Tamilarasi Ravikumar B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 32,
+    "constituency": "Tiruppattur",
+    "candidate_name": "K.R. Periakaruppan B.Com., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 33,
+    "constituency": "Alangudi",
+    "candidate_name": "Siva. V. Meyyanathan M.C.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 34,
+    "constituency": "Thirumayam",
+    "candidate_name": "S. Regupathy B.Sc., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 35,
+    "constituency": "Pudukkottai",
+    "candidate_name": "Dr. Vai. Muthuraja M.B.B.S.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 36,
+    "constituency": "Viralimalai",
+    "candidate_name": "K.K. Sellapandian M.Com., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 37,
+    "constituency": "Peravurani",
+    "candidate_name": "N. Ashokkumar",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 38,
+    "constituency": "Pattukkottai",
+    "candidate_name": "Ka. Annadurai",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 39,
+    "constituency": "Orathanadu",
+    "candidate_name": "R. Vaithilingam B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 40,
+    "constituency": "Thanjavur",
+    "candidate_name": "Shan. Ramanathan M.B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 41,
+    "constituency": "Thiruvaiyaru",
+    "candidate_name": "Durai. Chandrasekaran B.A., L.L.B.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 42,
+    "constituency": "Kumbakonam",
+    "candidate_name": "Sakkottai Ka. Anbazhagan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 43,
+    "constituency": "Thiruvidaimarudur",
+    "candidate_name": "Dr. Govi. Chezhian M.A., B.L., Ph.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 44,
+    "constituency": "Tiruvarur",
+    "candidate_name": "Poondi K. Kalaivanan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 45,
+    "constituency": "Mannargudi",
+    "candidate_name": "Dr. T.R.B. Rajaa Ph.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 46,
+    "constituency": "Vedaranyam",
+    "candidate_name": "Ma.Me. Pugazhendhi",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 47,
+    "constituency": "Poompuhar",
+    "candidate_name": "Nivetha Murugan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 48,
+    "constituency": "Bhuvanagiri",
+    "candidate_name": "Durai Ki. Saravanan M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 49,
+    "constituency": "Kurinjipadi",
+    "candidate_name": "M.R.K. Panneerselvam B.Sc., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 50,
+    "constituency": "Neyveli",
+    "candidate_name": "Saba. Rajendran B.Sc., B.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 51,
+    "constituency": "Tittakudi (SC)",
+    "candidate_name": "C.V. Ganesan M.A., B.Ed.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 52,
+    "constituency": "Jayankondam",
+    "candidate_name": "Ka.So.Ka. Kannan M.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 53,
+    "constituency": "Ariyalur",
+    "candidate_name": "Latha Balu M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 54,
+    "constituency": "Kunnam",
+    "candidate_name": "S.S. Sivasankar B.E., M.B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 55,
+    "constituency": "Perambalur (SC)",
+    "candidate_name": "Dr. S.D. Jayalakshmi M.B.B.S., D.G.O.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 56,
+    "constituency": "Musiri",
+    "candidate_name": "N.S.N. Karunairaja B.Tech., M.B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 57,
+    "constituency": "Manachanallur",
+    "candidate_name": "S. Kathiravan B.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 58,
+    "constituency": "Lalgudi",
+    "candidate_name": "A. Soundarapandian B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 59,
+    "constituency": "Thiruverumbur",
+    "candidate_name": "Anbil Mahesh Poyyamozhi M.C.A., Ph.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 60,
+    "constituency": "Trichy (East)",
+    "candidate_name": "Dr. Inigo Irudayaraj M.S.W., Ph.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 61,
+    "constituency": "Trichy (West)",
+    "candidate_name": "K.N. Nehru",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 62,
+    "constituency": "Srirangam",
+    "candidate_name": "S. Palaniandi M. Com M Phil",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 63,
+    "constituency": "Kulithalai",
+    "candidate_name": "Suriyanur A. Chandran",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 64,
+    "constituency": "Krishnarayapuram(SC)",
+    "candidate_name": "S.K. Raja B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 65,
+    "constituency": "Karur",
+    "candidate_name": "Asi. M. Thiagarajan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 66,
+    "constituency": "Aravakurichi",
+    "candidate_name": "Monjanur R. Elango B.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 67,
+    "constituency": "Vedasandur",
+    "candidate_name": "S. Gandhirajan B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 68,
+    "constituency": "Dindigul",
+    "candidate_name": "I.P. Senthilkumar M.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 69,
+    "constituency": "Nilakottai (SC)",
+    "candidate_name": "Nagajothi B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 70,
+    "constituency": "Athoor",
+    "candidate_name": "I. Periyasamy B.A., B.G.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 71,
+    "constituency": "Oddanchatram",
+    "candidate_name": "R. Sakkarapani B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 72,
+    "constituency": "Madathukulam",
+    "candidate_name": "R. Jayaramakrishnan B.Sc., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 73,
+    "constituency": "Udumalpet",
+    "candidate_name": "K. Radhakrishnan B.Sc., M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 74,
+    "constituency": "Valparai (SC)",
+    "candidate_name": "A. Sudhakar B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 75,
+    "constituency": "Kinathukadavu",
+    "candidate_name": "K.V.K.S. Sabari Karthikeyan B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 76,
+    "constituency": "Coimbatore (South)",
+    "candidate_name": "V. Senthil Balaji B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 77,
+    "constituency": "Thondamuthur",
+    "candidate_name": "N.R. Karthikeyan B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 78,
+    "constituency": "Coimbatore (North)",
+    "candidate_name": "Senthamizhselvan B.Tech.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 79,
+    "constituency": "Sulur",
+    "candidate_name": "Thalapathi Murugesan M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 80,
+    "constituency": "Palladam",
+    "candidate_name": "K. Selvaraj",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 81,
+    "constituency": "Tiruppur (South)",
+    "candidate_name": "K. Dineshkumar M.I.B.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 82,
+    "constituency": "Avinashi (SC)",
+    "candidate_name": "Dr. Kokila Mani M.B.B.S.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 83,
+    "constituency": "Mettupalayam",
+    "candidate_name": "Kavitha Kalyanachundaram M.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 84,
+    "constituency": "Coonoor",
+    "candidate_name": "K.M. Raju B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 85,
+    "constituency": "Gudalur (SC)",
+    "candidate_name": "Mu. Dravidamani M.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 86,
+    "constituency": "Gobichettipalayam",
+    "candidate_name": "N. Nallasivam D.M.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 87,
+    "constituency": "Anthiyur",
+    "candidate_name": "M. Sivabalan B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 88,
+    "constituency": "Bhavani",
+    "candidate_name": "K.A. Sekar (a) K.A. Chandrasekar M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 89,
+    "constituency": "Perundurai",
+    "candidate_name": "Thoppu N.D. Venkatachalam B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 90,
+    "constituency": "Kangayam",
+    "candidate_name": "Mu.Pe. Saminathan B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 91,
+    "constituency": "Dharapuram (SC)",
+    "candidate_name": "Dr. Indirani M.B.B.S., D.C.H.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 92,
+    "constituency": "Erode (West)",
+    "candidate_name": "S. Muthusamy M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 93,
+    "constituency": "Komarapalayam",
+    "candidate_name": "S. Balu",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 94,
+    "constituency": "Paramathi Velur",
+    "candidate_name": "K.S. Moorthy B.Sc.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 95,
+    "constituency": "Namakkal",
+    "candidate_name": "P. Rani M.A., L.L.B.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 96,
+    "constituency": "Sendamangalam (ST)",
+    "candidate_name": "P. Poomalar",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 97,
+    "constituency": "Rasipuram (SC)",
+    "candidate_name": "Dr. M. Mathiventhan M.B.B.S., M.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 98,
+    "constituency": "Veerapandi",
+    "candidate_name": "Dr. A.K. Tarun M.B.B.S., M.S., M.B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 99,
+    "constituency": "Salem (South)",
+    "candidate_name": "M. Loganathan B.Sc.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 100,
+    "constituency": "Salem (North)",
+    "candidate_name": "R. Rajendran B.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 101,
+    "constituency": "Sankari",
+    "candidate_name": "M. Manikandan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 102,
+    "constituency": "Edappadi",
+    "candidate_name": "Kasi",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 103,
+    "constituency": "Mettur",
+    "candidate_name": "Mithun Chakravarthy B.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 104,
+    "constituency": "Yercaud (ST)",
+    "candidate_name": "T.M. Revathi Madheswaran",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 105,
+    "constituency": "Gangavalli (SC)",
+    "candidate_name": "Gu. Chinnadurai B.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 106,
+    "constituency": "Sankarapuram",
+    "candidate_name": "Tha. Udhayasuriyan B.Sc.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 107,
+    "constituency": "Rishivandiyam",
+    "candidate_name": "Vasantham Karthikeyan B.Sc.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 108,
+    "constituency": "Ulundurpet",
+    "candidate_name": "G.R. Vasanthavel B.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 109,
+    "constituency": "Tirukkoyilur",
+    "candidate_name": "Dr. Pon. Gautham Sigamani M.B.B.S., M.S.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 110,
+    "constituency": "Vikravandi",
+    "candidate_name": "Anniyur Siva (a) A. Sivasubramanian B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 111,
+    "constituency": "Villupuram",
+    "candidate_name": "Dr. R. Lakshmanan M.B.B.S., D.Ortho",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 112,
+    "constituency": "Vanur (SC)",
+    "candidate_name": "Gautham Dravidamani RE",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 113,
+    "constituency": "Gingee",
+    "candidate_name": "K.S. Masthan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 114,
+    "constituency": "Vandavasi (SC)",
+    "candidate_name": "S. Ambedkumar",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 115,
+    "constituency": "Cheyyar",
+    "candidate_name": "O. Jothi B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 116,
+    "constituency": "Arani",
+    "candidate_name": "Mahalakshmi Govarthanan Diploma",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 117,
+    "constituency": "Kalasapakkam",
+    "candidate_name": "P.S.T. Saravanan M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 118,
+    "constituency": "Kilpennathur",
+    "candidate_name": "K. Pichandi M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 119,
+    "constituency": "Tiruvannamalai",
+    "candidate_name": "E.V. Velu M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 120,
+    "constituency": "Chengam",
+    "candidate_name": "M.P. Giri",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 121,
+    "constituency": "Harur",
+    "candidate_name": "A. Shanmugam B.Sc.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 122,
+    "constituency": "Pappireddippatti",
+    "candidate_name": "Dr. P. Palaniappan M.S.C., Ph.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 123,
+    "constituency": "Palacode",
+    "candidate_name": "Dr. D.N.V. Senthilkumar M.B.B.S., M.D., R.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 124,
+    "constituency": "Hosur",
+    "candidate_name": "S.A. Sathya",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 125,
+    "constituency": "Veppanahalli",
+    "candidate_name": "P.S. Srinivasan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 126,
+    "constituency": "Bargur",
+    "candidate_name": "De. Mathiazhagan B.Sc., D.F.Tech.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 127,
+    "constituency": "Tirupattur",
+    "candidate_name": "A. Nallathambi",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 128,
+    "constituency": "Jolarpet",
+    "candidate_name": "Kavitha Dhandapani B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 129,
+    "constituency": "Ambur",
+    "candidate_name": "A.C. Vilvanathan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 130,
+    "constituency": "Kilvaithinankuppam(SC)",
+    "candidate_name": "Dr. Rajeswari Mohankandhi M.B.B.S.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 131,
+    "constituency": "Anaicut",
+    "candidate_name": "A.P. Nandakumar M.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 132,
+    "constituency": "Vellore",
+    "candidate_name": "P. Karthikeyan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 133,
+    "constituency": "Arcot",
+    "candidate_name": "J.L. Eswarappan B.E.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 134,
+    "constituency": "Ranipet",
+    "candidate_name": "R. Gandhi",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 135,
+    "constituency": "Katpadi",
+    "candidate_name": "Duraimurugan M.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 136,
+    "constituency": "Kanchipuram",
+    "candidate_name": "Nithya Sugumar",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 137,
+    "constituency": "Uthiramerur",
+    "candidate_name": "K. Sundar",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 138,
+    "constituency": "Madurantakam (SC)",
+    "candidate_name": "S. Amulu Ponmalar",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 139,
+    "constituency": "Chengalpattu",
+    "candidate_name": "M.K.D. Karthik Dhandapani B.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 140,
+    "constituency": "Tambaram",
+    "candidate_name": "Dr. S.R. Raja B.Sc.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 141,
+    "constituency": "Alandur",
+    "candidate_name": "T.M. Anbarasan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 142,
+    "constituency": "Sholinganallur",
+    "candidate_name": "S. Aravind Ramesh",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 143,
+    "constituency": "Mylapore",
+    "candidate_name": "T. Velu B.A., L.L.B.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 144,
+    "constituency": "T. Nagar",
+    "candidate_name": "Raja Anbazhagan B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 145,
+    "constituency": "Saidapet",
+    "candidate_name": "Ma. Subramanian B.A., L.L.B.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 146,
+    "constituency": "Virugampakkam",
+    "candidate_name": "Prabhakar Raja M.Tech., M.B.A.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 147,
+    "constituency": "Anna Nagar",
+    "candidate_name": "M.K. Mohan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 148,
+    "constituency": "Thousand Lights",
+    "candidate_name": "Dr. Ezhilan Naganathan M.B.B.S., M.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 149,
+    "constituency": "Chepauk-Thiruvallikeni",
+    "candidate_name": "Udhayanidhi Stalin B.Com.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 150,
+    "constituency": "Harbour",
+    "candidate_name": "P.K. Sekar Babu",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 151,
+    "constituency": "Royapuram",
+    "candidate_name": "Dr. Idream R. Murthy M.B.B.S.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 152,
+    "constituency": "Egmore (SC)",
+    "candidate_name": "I. Paranthamen B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 153,
+    "constituency": "Thiru-Vi-Ka-Nagar (SC)",
+    "candidate_name": "K.S. Ravichandran B.Sc., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 154,
+    "constituency": "Villivakkam",
+    "candidate_name": "Karthikeyan B.E., M.S.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 155,
+    "constituency": "Perambur",
+    "candidate_name": "R.D. Sekar B.Com., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 156,
+    "constituency": "Dr. Radhakrishnan Nagar",
+    "candidate_name": "J.J. Ebenezer M.Com., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 157,
+    "constituency": "Madhavaram",
+    "candidate_name": "S. Sudharsanam M.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 158,
+    "constituency": "Ambattur",
+    "candidate_name": "Dr. A.P. Poornima M.B.B.S., M.D.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 159,
+    "constituency": "Maduravoyal",
+    "candidate_name": "Karambakkam Ganapathy",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 160,
+    "constituency": "Avadi",
+    "candidate_name": "S.M. Nasar",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 161,
+    "constituency": "Poonamallee",
+    "candidate_name": "A. Krishnaswamy B.A., B.L.",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 162,
+    "constituency": "Tiruvallur",
+    "candidate_name": "V.G. Rajer",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 163,
+    "constituency": "Gummidipoondi",
+    "candidate_name": "T.J. Govindarajan",
+    "party_name": "DMK"
+  },
+  {
+    "s_no": 164,
+    "constituency": "Kolathur",
+    "candidate_name": "Muthuvel Karunanidhi Stalin B.A.",
+    "party_name": "DMK"
+  }
+]

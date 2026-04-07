@@ -51,9 +51,10 @@ suspend fun fetchCandidates(constituencyName: String, candidateInfoAgent: AIAgen
         return null
     }
     println("Fetching candidates for constituency: $constituencyName")
+    println("*************************************************************************************")
 
     val prompt =
-        "who are the candidates for $constituencyName constituency? Give the response in a json array in this format: [{name: '', party: '', constituency: ''}]. This json array string should be parsable by kotlin serialization library. Only give the response as json array string, no other text."
+        "who are the candidates for $constituencyName constituency from different parties? Give the response in a json array in this format: [{name: '', party: '', constituency: ''}]. This json array string should be parsable by kotlin serialization library. Only give the response as json array string, no other text."
 
     //println("Prompt: $prompt")
 

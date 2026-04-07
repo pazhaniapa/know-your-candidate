@@ -23,4 +23,7 @@ tasks.test {
 }
 kotlin {
     jvmToolchain(23)
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_23)
+    }
 }

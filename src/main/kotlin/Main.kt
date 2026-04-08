@@ -12,8 +12,13 @@ import ai.koog.prompt.executor.ollama.client.OllamaClient
 import ai.koog.prompt.llm.LLMCapability
 import ai.koog.prompt.llm.LLMProvider
 import ai.koog.prompt.llm.LLModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.json.*
+import java.io.IO.println
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -23,58 +28,48 @@ fun main() {
             print("Enter the constituency name: ")
             val constituencyName = readLine()?.trim() ?: ""
 
-            val candidatesJson = fetchCandidates(constituencyName, getCandidateInfoAgent())
+            val candidatesListJsonObject = fetchCandidates(constituencyName)
+            val scope = CoroutineScope(Dispatchers.IO)
+            val jobs = mutableListOf<Job>()
 
-            if (candidatesJson is JsonArray) {
-                for (candidate in candidatesJson) {
-                    val name = candidate.jsonObject["name"]?.jsonPrimitive?.content ?: "N/A"
-                    val party = candidate.jsonObject["party"]?.jsonPrimitive?.content ?: "N/A"
-                    val constituency = candidate.jsonObject["constituency"]?.jsonPrimitive?.content ?: "N/A"
+            candidatesListJsonObject?.let {
+                for (candidate in it) {
+                    println("PartyName: ${candidate.key}")
+                    println("Candidate Info: ${candidate.value}")
+                    val candidateInfoJson = candidate.value.jsonObject
+                    val name = candidateInfoJson["candidate_name"]?.jsonPrimitive?.content ?: ""
+                    val party = candidateInfoJson["party_name"]?.jsonPrimitive?.content ?: ""
+                    val constituency = candidateInfoJson["constituency"]?.jsonPrimitive?.content ?: ""
 
-                    val candidateInfo = webSearch(candidateName = name, partyName = party, getWebSearchAgent())
+                    val job = scope.launch {
+                        if (!name.isEmpty() && !party.isEmpty() && !constituency.isEmpty()) {
+                            val candidateInfo = webSearch(candidateName = name, partyName = party, getWebSearchAgent())
 
-                    println("******************************************************************************************************************************************************************************")
+                            println("******************************************************************************************************************************************************************************")
 
-                    println("Candidate Name: $name, Party: $party, Constituency: $constituency, Candidate Info: $candidateInfo")
+                            println("Candidate Name: $name, Party: $party, Constituency: $constituency, Candidate Info: $candidateInfo")
 
-                    println("******************************************************************************************************************************************************************************")
+                            println("******************************************************************************************************************************************************************************")
+                        }
+                    }
+                    jobs.add(job)
                 }
+                jobs.forEach {it.join()}
             }
+
         }
     }
 }
 
 
-suspend fun fetchCandidates(constituencyName: String, candidateInfoAgent: AIAgent<String, String>): JsonElement? {
+suspend fun fetchCandidates(constituencyName: String): JsonObject? {
     if (constituencyName.isBlank()) {
         println("Constituency name cannot be empty.")
         return null
     }
     println("Fetching candidates for constituency: $constituencyName")
     println("*************************************************************************************")
-
-    val prompt =
-        "who are the candidates for $constituencyName constituency from different parties? Give the response in a json array in this format: [{name: '', party: '', constituency: ''}]. This json array string should be parsable by kotlin serialization library. Only give the response as json array string, no other text."
-
-    //println("Prompt: $prompt")
-
-    val response = candidateInfoAgent.run(prompt)
-
-    //println("Response: $response")
-
-    var formattedResponse = ""
-    if (response.contains("```json")) {
-        //println("Cleaning response by removing code block markers")
-        formattedResponse = response.replace("```json", "").replace("```", "").trim()
-        //println("Cleaned Response: $formattedResponse")
-    } else {
-        //Response does not contain code block markers, using as is.
-        formattedResponse = response
-    }
-
-    val candidatesJsonArray = Json.parseToJsonElement(formattedResponse)
-
-    return candidatesJsonArray
+    return Tools.getCandidateList(constituencyName)
 }
 
 private suspend fun webSearch(
@@ -139,38 +134,4 @@ private suspend fun getWebSearchAgent(): AIAgent<String, String> {
     )
 
     return aiAgent
-}
-
-private fun getCandidateInfoAgent(): AIAgent<String, String> {
-    //Use this if you want to use Google Gemini models.
-    //val executor = simpleGoogleAIExecutor(Constants.GOOGLE_API_KEY)
-
-    //use this if you want to use local LLM in Ollama. Make sure to have Ollama installed and running with the appropriate model pulled.
-    val executor = SingleLLMPromptExecutor(OllamaClient(baseUrl = "http://localhost:11434"))
-
-    val gemma4Model = LLModel(
-        provider = LLMProvider.Ollama,
-        id = "gemma4:26b",
-        capabilities = listOf(
-            LLMCapability.Temperature,
-            LLMCapability.Schema.JSON.Basic,
-            LLMCapability.Tools
-        ),
-        contextLength = 200000
-    )
-
-    //Candidates information has been exposed as Tools in Tools.kt file.
-    val registry = ToolRegistry {
-        tools(Tools.asTools())
-    }
-
-    val agent = AIAgent(
-        promptExecutor = executor,
-        systemPrompt = "You are a helpful Know Your Candidate assistant for Tamil Nadu, India state election 2026. You have the candidates information from various parties as json from the provided tools.",
-        toolRegistry = registry,
-        //llmModel = GoogleModels.Gemini2_5Flash // Or Gemini2_0Pro for larger docs
-        llmModel = gemma4Model
-    )
-
-    return agent
 }

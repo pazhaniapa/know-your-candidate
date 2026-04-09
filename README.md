@@ -6,22 +6,21 @@ A Kotlin-based CLI tool that helps voters learn about candidates in the **2026 T
 
 ## How It Works
 
-The app runs an interactive REPL and chains two AI agents for each query:
+The app runs an interactive REPL. For each query, candidate data is loaded directly from local JSON files, then web searches run in parallel for all matched candidates:
 
 ```
 User Input (constituency name)
         │
         ▼
 ┌─────────────────────────┐
-│  getCandidateInfoAgent  │  ← Koog AIAgent + Gemini 2.5 Flash
-│  Tool: getCandidateList │  ← Reads 4 party JSON files from classpath
-│  Returns: [{name, party,│
-│            constituency}]│
+│  Tools.getCandidateList │  ← Reads all party JSON files from candidates-info/
+│  Returns: JsonObject    │  ← One entry per party with matching candidate
+│  {partyFile: candidate} │
 └────────────┬────────────┘
-             │  (one iteration per candidate)
+             │  (parallel coroutine per candidate)
              ▼
 ┌─────────────────────────┐
-│   getWebSearchAgent     │  ← Koog AIAgent + Gemini 2.5 Flash
+│   getWebSearchAgent     │  ← Koog AIAgent + Ollama (gemma4:26b)
 │   MCP: tavily-mcp       │  ← Spawns `npx tavily-mcp@0.1.3` over stdio
 │   Returns: summary of   │
 │   publicly available    │
@@ -32,28 +31,30 @@ User Input (constituency name)
      Printed to console
 ```
 
-### Agent 1 — `getCandidateInfoAgent`
+### Candidate Lookup — `Tools.getCandidateList`
 
-- Backed by **Gemini 2.5 Flash** via the Koog framework.
-- Has access to a single Koog `ToolSet` (`Tools.getCandidateList`) that loads all four party JSON files from the JVM classpath and returns them as combined JSON.
-- Given a constituency name, it identifies matching candidates across DMK, AIADMK, TVK, and NTK.
+- Scans all `.json` files in the `candidates-info/` resource directory at runtime.
+- Searches each file concurrently using coroutines.
+- Returns a `JsonObject` mapping each party filename to its matching candidate.
 
-### Agent 2 — `getWebSearchAgent`
+### Web Search Agent — `getWebSearchAgent`
 
-- Also backed by **Gemini 2.5 Flash**.
+- Backed by **Ollama** running **gemma4:26b** locally (requires Ollama running on `localhost:11434`).
 - For each candidate, it spawns `npx -y tavily-mcp@0.1.3` as a child process and communicates with it over **stdio MCP transport**.
+- All candidate searches run in parallel via `CoroutineScope(Dispatchers.IO)`.
 - Uses live Tavily search results to summarise the candidate's publicly available background.
 
 ---
 
 ## Candidate Data
 
-Party JSON files are bundled as classpath resources under `src/main/resources/`. Each file is a flat JSON array of objects with the shape:
+Party JSON files are bundled as classpath resources under `src/main/resources/candidates-info/`. Each file is a flat JSON array of objects with the shape:
 
 ```json
 { "candidate_name": "...", "constituency": "...", "party_name": "..." }
 ```
 
+Current parties covered: DMK, TVK, AIADMK, NTK, INC, BJP, MDMK, DMDK, PMK, AMMK.
 
 ---
 
@@ -63,8 +64,10 @@ Party JSON files are bundled as classpath resources under `src/main/resources/`.
 |-------------|---------|
 | JDK 23 | Required by `jvmToolchain(23)` in `build.gradle.kts` |
 | Node.js + `npx` | Must be on `PATH`; used at runtime to spawn the Tavily MCP server |
-| `GOOGLE_API_KEY` | Gemini API key — set in `src/main/kotlin/Constants.kt` |
+| Ollama | Must be running locally at `http://localhost:11434` with `gemma4:26b` pulled |
 | `TAVILY_API_KEY` | Tavily search API key — set in `src/main/kotlin/Constants.kt` |
+
+> **Note:** `GOOGLE_API_KEY` is still present in `Constants.kt` but is not used by the current implementation.
 
 ---
 
@@ -76,15 +79,19 @@ Party JSON files are bundled as classpath resources under `src/main/resources/`.
    cd know-your-candidate
    ```
 
-2. **Add your API keys** in `src/main/kotlin/Constants.kt`:
+2. **Pull the Ollama model:**
+   ```bash
+   ollama pull gemma4:26b
+   ```
+
+3. **Add your Tavily API key** in `src/main/kotlin/Constants.kt`:
    ```kotlin
    object Constants {
-       const val GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"
        const val TAVILY_API_KEY = "YOUR_TAVILY_API_KEY"
    }
    ```
 
-3. **Build and run:**
+4. **Build and run:**
    ```bash
    ./gradlew run
    ```
@@ -96,10 +103,12 @@ Party JSON files are bundled as classpath resources under `src/main/resources/`.
 ```
 Enter the constituency name: Chennai Central
 Fetching candidates for constituency: Chennai Central
-**************************************************************
-Candidate Name: ..., Party: DMK, Constituency: Chennai Central
-Candidate Info: <web-search summary>
-**************************************************************
+*************************************************************************************
+PartyName: DMK-candidates-list-2026
+Candidate Info: {...}
+**************************************************************...
+Candidate Name: ..., Party: DMK, Constituency: Chennai Central, Candidate Info: <web-search summary>
+**************************************************************...
 ...
 Enter the constituency name:
 ```
@@ -112,16 +121,22 @@ The prompt loops until you terminate the process (`Ctrl+C`).
 
 ```
 src/main/kotlin/
-├── Main.kt       # Entry point; REPL loop, agent factory functions
-├── Tools.kt      # Koog ToolSet — loads all party JSON files
-├── Utils.kt      # Reads JSON resources from JVM classpath
+├── Main.kt       # Entry point; REPL loop, parallel web search, agent factory
+├── Tools.kt      # Loads all party JSON files from candidates-info/ directory
+├── Utils.kt      # File reading (kotlinx.io) and constituency matching
 └── Constants.kt  # GOOGLE_API_KEY and TAVILY_API_KEY
 
-src/main/resources/
+src/main/resources/candidates-info/
 ├── DMK-candidates-list-2026.json
-├── tvk-candidates-list-2026.json
+├── TVK-candidates-list-2026.json
 ├── AIADMK-candidates-list-2026.json
-└── NTK-candidates-list-2026-.json
+├── NTK-candidates-list-2026-.json
+├── INC-candidates-list-2026.json
+├── BJP-candidates-list-2026.json
+├── MDMK-candidates-list-2026.json
+├── DMDK-candidates-list-2026.json
+├── PMK-candidates-list-2026.json
+└── AMMK-candidates-list-2026.json
 ```
 
 ---
@@ -134,7 +149,8 @@ src/main/resources/
 | JVM target | 23 |
 | Koog Agents | 0.6.2 |
 | kotlinx.serialization | bundled with Koog |
-| Gemini model | Gemini 2.5 Flash |
+| kotlinx.io | for filesystem access |
+| LLM backend | Ollama (`gemma4:26b`) |
 | MCP server | `tavily-mcp@0.1.3` (via `npx`) |
 | Build tool | Gradle 8.10 (Kotlin DSL) |
 

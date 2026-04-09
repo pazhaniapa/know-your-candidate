@@ -15,7 +15,7 @@ import java.net.URI
 import java.util.Collections.emptyMap
 
 object Tools {
-    suspend fun getCandidateList(constituencyName : String) : JsonObject  {
+    suspend fun getCandidateList(constituencyName: String): JsonObject {
         val resultCandidateMap = mutableMapOf<String, JsonElement>()
 
         val loader = Thread.currentThread().contextClassLoader
@@ -34,7 +34,7 @@ object Tools {
                 if (content != null && content.isNotEmpty()) {
                     val job = scope.launch {
                         Utils.getCandidateForConstituency(constituencyName, content).let {
-                            if(it.isNotEmpty()) {
+                            if (it.isNotEmpty()) {
                                 resultCandidateMap[file.nameWithoutExtension] = it
                             }
                         }

@@ -54,7 +54,7 @@ fun main() {
                     }
                     jobs.add(job)
                 }
-                jobs.forEach {it.join()}
+                jobs.forEach { it.join() }
             }
 
         }

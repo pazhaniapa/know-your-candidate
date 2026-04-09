@@ -12,7 +12,7 @@ import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 
 object Utils {
-    fun readJsonFile(filePath : String) : JsonArray? {
+    fun readJsonFile(filePath: String): JsonArray? {
         try {
             val jsonPath = Path(path = filePath)
             // Check if file exists using the pure-Kotlin filesystem
@@ -25,13 +25,13 @@ object Utils {
 
             // Parse as dynamic JSON object
             return Json.parseToJsonElement(jsonString).jsonArray
-        }catch (e: Exception){
+        } catch (e: Exception) {
             e.printStackTrace()
             return null
         }
     }
 
-    fun getCandidateForConstituency(constituencyName : String, partyCandidatesInfoJson : JsonArray) : JsonObject {
+    fun getCandidateForConstituency(constituencyName: String, partyCandidatesInfoJson: JsonArray): JsonObject {
         for (candidate in partyCandidatesInfoJson) {
             val candidateConstituency = candidate.jsonObject["constituency"]?.jsonPrimitive?.content ?: ""
             if (candidateConstituency.contains(constituencyName, ignoreCase = true)) {
